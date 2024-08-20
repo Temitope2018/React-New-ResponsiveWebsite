@@ -1,0 +1,147 @@
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.sectionA h1{
+    font-size: .9rem;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.sectionB{
+    display: flex;
+    text-align: center;
+    font-size: .9rem;
+    }
+    @media(max-width:850px){
+        .sectionB{
+            display: none;
+            
+        }
+    }
+.sectionB p{
+    margin: 0 2.5em;
+    color: white;
+     font-weight: 500;
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    
+    }
+    @media(min-width:751px) and (max-width:1150px){
+        .sectionB p{
+            margin: 0 .5em;
+            
+        }
+        .sectionB{
+            margin-right: 50px;
+        }
+    }
+  .sectionC{
+      display: flex;
+      align-items: center;
+      font-size: .9rem;
+    }
+    @media(min-width:500px) and (max-width:850px){
+        .sectionC{
+            position: relative;
+            right: 40px;
+        }
+    }
+    @media (min-width:850px) and (max-width:1370px){
+        .sectionC{
+            position: relative;
+            right: 70px;
+        }
+    }
+    .sectionC p{
+        color: white;
+        margin-right: 3rem;
+        letter-spacing: 1px;
+        cursor: pointer;
+        font-family: var(--font-family);
+    }
+    .sectionC button{
+      font-size: .8rem;
+      font-weight: 600; 
+      color: white;
+      letter-spacing: 1px; 
+      border: none;
+      outline: none;
+      background: orangered;
+      padding: .4rem;
+      cursor: pointer;
+      border-radius: 5px;
+      font-family: var(--font-family);
+    }
+    .section2{
+        display: flex;
+        align-items: center;
+    }
+    .section2 img{
+        width: 30px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .section2 p{
+        width: 30px;
+        cursor: pointer;
+        border-radius: 3px;
+
+    }
+    @media (min-width:850px){
+        .section2 img{
+            display: none;
+        }
+        .section2 p{
+            display: none;
+        }
+    }
+    @media (min-width:500px) and (max-width:850px){
+        .section2 img{
+            position: relative;
+            right: 80px;
+        }
+        .section2 p{
+            position: relative;
+            right: 80px;
+        }
+    }
+    .section3 {
+        display: flex;
+        justify-content: end;
+        
+}
+    .sectionD{
+        display: flex;
+        
+        flex-direction: column;
+        color: white;
+        font-weight: 700;
+        font-family: var(--font-family);
+         background-color: white;
+        color: black;
+        width: 200px;
+        text-align: center;
+        padding: 1em 0;
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 10);
+        position: relative;
+        right: 10px;
+        top: 60px;
+        
+    }
+    .sectionD p{
+        padding-top: .5em;
+    }
+
+
+
+    
+    
+
+

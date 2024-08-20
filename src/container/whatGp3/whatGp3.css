@@ -1,0 +1,160 @@
+.gpt-container{
+    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    padding: 1em;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 80px;
+}
+.gpt-sectionA{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media (max-width:850px){
+  .gpt-sectionA{
+    display: block;
+    margin-top: .5em;
+  }
+}
+.gpt-line{
+    width: 20px;
+    height: 2.5px;
+    background: var(--gradient-text);
+    border-radius: 20px;
+    margin-bottom: 2px;
+}
+.gpt-header{
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media (max-width:850px){
+  .gpt-header{
+    font-size: 1rem;
+  }
+}
+.gpt-text{
+    width: 33%;
+    color: white;
+    line-height: 16px;
+    font-size: .7rem;
+    letter-spacing: 1.1px;
+    font-weight: normal;
+    opacity: .6;
+    cursor: pointer;
+}
+@media (max-width:850px){
+  .gpt-text{
+    width: 100%;
+    margin-top: 1em;
+    font-size: .8rem;
+    line-height:19px;
+    letter-spacing: 1.2px;
+  }
+}
+.gpt-section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+@media (max-width:850px){
+  .gpt-section2{
+    margin: 3em 0;
+  }
+}
+.gpt-possible{
+  font-size: .9rem; 
+  width: 80%; 
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  @media (max-width:850px){
+    .gpt-possible{
+      font-size: .92rem;
+      width: 70%;
+    }
+  }
+  .gpt-section4{
+    margin-top: .5rem;
+    font-size: .6rem;
+    color: #800080ad;
+    font-family: var(--font-family);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .gpt-sectionB{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+  }
+  @media (max-width:850px){
+    .gpt-sectionB{
+      display: block;
+    }
+  }
+  .gpt-section55{
+    margin-left: 5em;
+  }
+  @media (max-width:850px){
+    .gpt-section55{
+      margin: 2em 0;
+    }
+  }
+  .gpt-writes{
+    margin-top: .5em;
+    width: 100%;
+    font-size: .7rem;
+    color: white;
+    letter-spacing: .2px;
+    line-height: 18px;
+    font-weight: normal;
+    opacity: .5;
+  }
+  @media (max-width:850px){
+    .gpt-writes{
+      margin-top: 1em;
+      font-size: .8rem;
+      font-family: var(--font-family);
+      letter-spacing: .5px;
+      line-height: 20px;
+    }
+  }
+  .gpt-write{
+    margin-top: .5em;
+    width: 75%;
+    font-size: .7rem;
+    color: white;
+    letter-spacing: .2px;
+    line-height: 18px;
+    font-weight: normal;
+    opacity: .5;
+}
+@media (max-width:850px){
+  .gpt-write{
+    margin-top: 1em;
+    font-size: .8rem;
+    font-family: var(--font-family);
+    letter-spacing: .5px;
+    line-height: 20px;
+    width: 100%;
+  }
+}

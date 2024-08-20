@@ -1,0 +1,95 @@
+.possibility-containers{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+.possibility-texts{
+    margin-top: 1.5em;
+}
+.possibility-texts h4{
+  color: var(--color-text);  
+  font-style: normal;
+  font-weight: 500;
+  font-size: .8rem;
+  letter-spacing: .8px;
+  opacity: .5;
+}
+.possibility-gradients{
+    font-size: 1rem;
+    font-family: var(--font-family);
+    margin-top: 1em;
+    width: 40%;
+    font-family: 600;
+    font-style: none;
+    line-height: 23px;
+    letter-spacing: .5px;
+}
+.possibility-section2{
+   font-size: .7rem;
+   letter-spacing: .5px; 
+   color: var(--color-text);
+   font-style: none;
+   font-weight: 500;
+   font-family: var(--font-family);
+   width: 45%;
+   line-height: 18px;
+   margin-top: 1em;
+   opacity: .5;
+}
+.possibility-section3{
+    font-size: .55rem;
+    margin-top: 2em;
+    font-weight: normal;
+
+}
+.possibility-image{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.possibility-image img{
+    border-radius: 2px;
+    margin-right: 10em;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+@media (max-width:1100px){
+  .possibility-containers{
+    display: block;
+    position: relative;
+    bottom: 200px;
+  } 
+  .possibility-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  } 
+  .possibility-texts h4{
+    text-align: center;
+  }
+  .possibility-gradients{
+    width: 100%;
+    text-align: center;
+    
+  }
+  .possibility-section2{
+    width: 80%;
+    
+  }
+  .possibility-image{
+    width: 100%;
+    display: block;
+    
+  }
+  .possibility-image img{
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+  
+}
+
+

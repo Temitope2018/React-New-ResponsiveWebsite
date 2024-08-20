@@ -1,0 +1,100 @@
+.footer-container{
+    background: var(--color-footer);
+    padding: 2em;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    margin-top: 3em;
+}
+.footer-gradient{
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: .1px;
+    text-align: center;
+    font-family: var(--font-family);
+}
+.footer-text{
+    text-align: center;
+    margin: 2em auto 0;
+    font-size: .7rem;
+    letter-spacing: .2px;
+    color: var(--color-text);
+    font-weight: 200;
+    font-style: normal;
+    border: 2px solid #ffffff18;
+    width: 150px;
+    padding: .5em .2em;
+    opacity: .7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.footer-section{
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    }
+    @media (max-width:650px){
+        .footer-section{
+            display: block;
+            margin-top: 3em;
+        }
+    }
+    @media (min-width:650px) and (max-width:1050px){
+        .footer-section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 50px;
+        }
+    }
+.footer-section1 h1{
+    font-size: .95rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: var(--font-family);
+    letter-spacing: 1px;
+    opacity: .8;
+}
+.footer-section1 p{
+    font-size: .6rem;
+    margin-top: .6em;
+    color: white;
+    font-style: normal;
+    font-family: var(--font-family);
+    font-weight: normal;
+    opacity: .5;
+    width: 90%;
+    letter-spacing: .2px;
+}
+.footer-section2{
+    margin-top: 0;
+}
+@media (max-width:650px){
+    .footer-section2{
+        margin-top: 1.5em;
+    }
+}
+.footer-section2 h4{
+    font-size: .7rem;
+    color: #fff;
+    letter-spacing: .3px;
+    font-style: normal;
+    font-weight: normal;
+    opacity: .8;
+    font-family: var(--font-family);
+}
+.footer-section2 p{
+    font-size: .6rem;
+    margin-top: .5em;
+    color: #fff;
+    letter-spacing: .2px;
+    font-style: normal;
+    font-weight: normal;
+    opacity: .5;
+}
+.footer-section3{
+    text-align: center;
+    margin-top: 3em;
+    font-size: .6rem;
+    letter-spacing: .3px;
+    font-family: var(--font-family);
+    color: #fff;
+    opacity: .5;
+    font-weight: normal;
+}

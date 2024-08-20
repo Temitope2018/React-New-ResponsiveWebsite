@@ -1,0 +1,66 @@
+.CTA-container{
+    background: var(--gradient-bar);
+    padding: 2em;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+@media (max-width:850px){
+    .CTA-container{
+        position: relative;
+        bottom: 130px;
+    }
+}
+.CTA-section1 p{
+    font-size: .7rem;
+    letter-spacing: .3px;
+    font-family: var(--font-family);
+    color: #06068fbd;
+    font-weight: bold;
+    opacity: .8;
+}
+.CTA-section2{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.CTA-section2 h4{
+    font-weight: bold;
+    font-family: var(--font-family);
+    font-style: normal;
+    letter-spacing: .3px;
+    opacity: .9;
+    font-size: .98rem;
+}
+.CTA-section2 button{
+    background: var(--color-bg);
+    color: #fff;
+    padding: .8em 2em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    letter-spacing: .2px;
+}
+@media (max-width:850px){
+    .CTA-section2{
+        display: block;
+    }
+    .CTA-section2 h4{
+        opacity: 1;
+        font-size: 1.1rem;
+        line-height: 25px;
+        }
+        .CTA-section2 button{
+            display: flex;
+            margin: 2em auto 0;
+            letter-spacing: 1px;
+        }
+}
+
+
